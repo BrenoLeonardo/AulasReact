@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  background-color: yellow;
+  border: solid;
+  border-color: black;
+  height: 20vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.inputs{
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+  border-color: black;
+  margin-bottom: 2%;
+}
+
+.botaos{
+  background-color: blue;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+  border-color: black;
+  margin-bottom: 2%;
+}
+
+.resultados{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.total{
+  margin-bottom: 2%;
+}
+
+.mensagem{
+  width: 80vw;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h3{
+  color: black;
+  background-color: yellow;
+  border: solid;
+  border-color: green; 
+}
+
+.hora{
+  width: 15vw;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

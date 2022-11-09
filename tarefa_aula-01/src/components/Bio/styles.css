@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+  }  
+
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 14%;
+    font-size: 2.5vh;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.bio > button{
+    width: 20vw;
+    height: 8vh;
+    font-size: 2.5vh;
+}
